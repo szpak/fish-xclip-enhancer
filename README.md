@@ -56,4 +56,4 @@ The script was ported to Fish by [Marcin Zajączkowski](http://blog.solidsoft.in
 
 The Fish version is licensed under the terms of [the Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
-![Stat Counter stats](https://c.statcounter.com/9490233/0/ca0e5c1b/0)/
+![Stat Counter stats](https://c.statcounter.com/9490233/0/ca0e5c1b/0/)
