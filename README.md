@@ -34,10 +34,19 @@ Copied to clipboard: Copy this to a clipboard
 
 ## Installation
 
+### Manual version
+
 Download `cb.fish` and put it into `~/.config/fish/functions/` directory.
 
-*Append* a content of `companionFunctions.txt` to the `~/.config/fish/config.fish` file
+**Append** a content of `companionFunctions.txt` to the `~/.config/fish/config.fish` file
 (in Fish only one function can be defined in a dedicated function file).
+
+### Scripted version
+
+```
+curl -o ~/.config/fish/functions/cb.fish https://raw.github.com/szpak/fish-xclip-enhancer/master/cb.fish
+curl https://raw.github.com/szpak/fish-xclip-enhancer/master/companionFunctions.txt >> ~/.config/fish/config.fish
+```
 
 ## Authors
 
@@ -46,4 +55,3 @@ The original idea and implementation for Bash was written by [Nathan Broadbent](
 The script was ported to Fish by [Marcin Zajączkowski](http://blog.solidsoft.info/).
 
 The Fish version is licensed under the terms of [the Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).
-
